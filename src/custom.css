@@ -1,0 +1,14 @@
+
+  .custom-hover:hover .svg-hover {
+    stroke:white;
+    transition: stroke 0.3s ease;
+  }
+  .hide-animation {
+    display: none; 
+  }
+  
+  @media (min-width: 768px) {
+    .hide-animation {
+      display: flex; 
+    }
+  }
